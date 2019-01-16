@@ -83,7 +83,7 @@ def add_backend_server(key):
 	response = json.loads(client.do_action_with_exception(request),encoding='utf-8')
 	print "-"*80
 	print json.dumps(response,sort_keys=True, indent=4, separators=(',', ':'))
-	print "上线54，afc服务器"
+	print ""
 	print "-"*80
 
 def remove_backend_server(key):
@@ -94,7 +94,7 @@ def remove_backend_server(key):
 	response = json.loads(client.do_action_with_exception(request),encoding='utf-8')
 	print "-"*80
 	print json.dumps(response,sort_keys=True, indent=4, separators=(',', ':'))
-	print "下线54,afc服务器"
+	print ""
 	print "-"*80
 
 
